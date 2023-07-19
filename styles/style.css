@@ -480,3 +480,45 @@ cursor: pointer;
 }
 
 
+/* responsive for tab */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .nav-section,
+.banner-section,
+.second-banner-container {
+    flex-direction: column;
+    padding: 10%;
+
+} 
+.banner-content {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.banner-content-image{
+    width: 50%;
+}
+.featured-box{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    margin: 0px;
+}
+.anniversary-container{
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.anniversary-text,
+.play-text{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+
+}
+.play-container{
+    flex-direction: column-reverse;
+    padding: 10px 10px 50px 10px;
+    gap: 10px;
+}
+}

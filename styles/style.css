@@ -176,6 +176,179 @@
 }
 /* featured end */
 
+.anniversary-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 200px 100px 200px;
+    border: 2px solid salmon;
+
+}
+.anniversary-text{
+    width: 50%;
+    text-align: right;
+}
+.anniversary-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.anni-image-main{
+    width: 90%;
+    
+}
+.anni-image-second{
+    width: 30%;
+    border: 7px solid #FFF;
+    position: absolute;
+    right: 80%;
+    top: 70%;
+    
+}
+.anni-text-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.anni-text-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #534C64;
+}
+/* play container */
+.play-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 200px 100px 200px;
+    border: 2px solid rgb(19, 5, 3);
+}
+
+.play-text{
+    width: 50%;
+    text-align: left;
+}
+.play-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.play-image-main{
+    width: 90%;
+}
+.play-image-second{
+    width: 30%;
+    border: 7px solid #FFF;
+    position: absolute;
+    left: 80%;
+    top: 70%;
+}
+    /* play section end */
+
+.game-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 200px 50px 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    border: 2px solid rgb(241, 40, 9);
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+.game:hover{
+    color: #F948B2;
+    border: 2px solid #F948B2;
+    background: transparent;
+
+}
+.game h5{
+   text-align: center;
+}
+.game img{
+    width: 20%;
+}
+.links li{
+text-decoration: none;
+cursor: pointer;
+}
+/* footer */
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 200px;
+    text-align: center;
+   background-color: #0B0223;
+   
+}
+.links>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 0;
+    list-style: none;
+    color: #fff;
+}
+.icons i{
+    font-size: 2.2rem;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+.icons>a{
+    padding: 40px auto;
+}
+.logo-text-2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+}
+.logo-text-2 span{
+    color:#FF42A5 ;
+}
+.external-links{
+    font-size: .9rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.external-links a{
+    color: #ffffff99;
+    text-decoration: none;
+    padding-right: 20px;
+    
+
+    
+}
+.copyright{
+    color: #ffffff99;
+    padding-top: 20px;
+}
+
+
+
+
 
 
 /* responsive for mobile */
@@ -186,21 +359,76 @@
     .featured-box {
         flex-direction: column;
     }
-    .banner-section{
+.banner-section{
         flex-direction: column-reverse;
         padding: 20px;
     }
-    .banner-content,
-    .banner-content-image{ 
+.banner-content,
+.banner-content-image{ 
         width: 100%;
     }
-    .banner-content{
+.banner-content{
         text-align: center;
     }
 
-    .featured-container{
+.featured-container{
         padding: 50px 10px;
     }
+    /* anni container */
+.anniversary-container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 30px;
+        padding: 30px 10px 50px 10px;
+        margin-bottom: 30px;
+    }
+.play-container{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        padding: 30px 10px 50px 10px;
+        gap: 30px;
+    }
+.anniversary-text,
+        .play-text{
+        width: 100%;
+        text-align: center;
+    }
+.anniversary-image,
+.play-image{
+        width: 70%;
+        margin: 0 auto;
+    }
+.game-container{
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 10px;
+        padding: 10px;
+        gap: 10px;
+}
+.game{
+    padding: 0px;
+}
+.game h5{
+    font-size: 0.6rem;
+}
+/* footer start */
+.footer-section{
+    padding: 20px;
+}
+.links>ul,
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.external-links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.links>ul{
+    gap: 10px;
+    margin: 0px;
+   
+}
+
 }
 
 

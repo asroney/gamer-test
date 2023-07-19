@@ -76,6 +76,9 @@
     align-items: center;
     gap: 70px;
     padding: 50px 200px 0px 200px;
+    background-image: url(../images/Group14.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .image-banner{
     width: 100%;
@@ -116,6 +119,7 @@
 
 .banner-content{
     width: 50%;
+    
 }
 .banner-content-image{
     width: 50%;

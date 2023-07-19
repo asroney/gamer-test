@@ -155,6 +155,7 @@
 .box{
     width: 90%;
     padding: 10px;
+
 }
 .box:hover{
    border: 5px solid #FF42A5;
@@ -378,9 +379,56 @@ cursor: pointer;
     font-weight: 500;
     padding-top: 20px;
 }
-
-
-
+.career-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+    background-color: #FF42A5;
+    margin-bottom: 10pxpx;
+}
+.positions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    font-size: 1rem;
+}
+.career-text{
+    width: 50%;
+}
+.career-image{
+    width: 50%;
+}
+.career-image img{
+    width: 100%;
+}
+.career-title{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.career-des{
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.p-two{
+    text-align: right;
+}
+.btn-career{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #FF42A5;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
 
 
 
@@ -474,6 +522,18 @@ cursor: pointer;
     width: 100%;
     padding: 10px;
 }
+
+/* career */
+.career-container{
+    flex-direction: column;
+    padding: 20px;
+}
+.career-text{
+    width: 100%;
+}
+.career-image{
+    width: 100%;
+}
 }
 
 
@@ -517,5 +577,19 @@ cursor: pointer;
     flex-direction: column-reverse;
     padding: 10px 10px 50px 10px;
     gap: 10px;
+}
+.career-container{
+    flex-direction: column;
+    padding: 20px;
+}
+.career-text{
+    width: 100%;
+
+}
+.career-image{
+    width: 100%;
+}
+.career-image img{
+    width: 100%;
 }
 }
